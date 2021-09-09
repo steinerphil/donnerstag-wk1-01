@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class MainTest {
 
     @Test
-    void checkPersonsTest1(){
+    void check30(){
         //GIVEN
         int numOfPersons = 30;
 
@@ -15,7 +15,7 @@ public class MainTest {
     }
 
     @Test
-    void checkPersonsTest2(){
+    void checkTooHigh(){
         //GIVEN
         int numOfPersons = 31;
 
