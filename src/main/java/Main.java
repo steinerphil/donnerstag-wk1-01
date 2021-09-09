@@ -8,12 +8,14 @@ public class Main {
     }
 
 
-public static void checkPersons(int count){
+public static boolean checkPersons(int count){
         if(count <= 30){
             System.out.println("Maximale Personenanzahl nicht überschritten.");
+            return true;
         }
         else{
             System.out.println("Maximale Personenanzahl überschritten.");
+            return false;
         }
 }
 
